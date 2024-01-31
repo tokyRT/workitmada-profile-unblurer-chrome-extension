@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Workitmada profile unblurer",
+  "description": "Workitmada profile unblur",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "images/workitmada-16.png",
+    "32": "images/workitmada-32.png",
+    "48": "images/workitmada-48.png",
+    "128": "images/workitmada-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.workitmada.com/*"],
+      "js": ["content.js", "main.js"]
+    }
+  ]
+}

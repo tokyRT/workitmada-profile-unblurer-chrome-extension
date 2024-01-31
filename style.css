@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 10px;
+}
+h2{
+    color: #00E024;
+}
+p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #00e02546;
+    border-radius: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+p span{
+    font-weight: bold;
+    background-color: #00E024;
+    color: white;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
